@@ -7,13 +7,13 @@
 This repository includes the code and data links mentioned in our papers, encompassing all the training data, evaluation scripts, and results utilized in our research.
 
 <p align="center">
-  <img alt="example1" src="resources/1.jpg" width="100%" height=300>
+  <img alt="example1" src="resources/1.png" width="100%" height=300>
 </p>
 
 <br/>
 
 <p align="center">
-  <img alt="example2" src="resources/3.jpg" width="100%" height=300>
+  <img alt="example2" src="resources/3.png" width="100%" height=300>
 </p>
 
 
