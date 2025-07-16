@@ -19,7 +19,7 @@ This repository includes the code and data links mentioned in our papers, encomp
 <br/>
 
 <p align="center">
-  <img alt="example2" src="resources/2.png" width="100%" height=300>
+  <img alt="example3" src="resources/2.png" width="100%" height=300>
 </p>
 
 
@@ -44,7 +44,9 @@ To download the data, please send a request email to thuyentd@uit.edu.vn or tien
 
 ## Main results
 
-
+<p align="center">
+  <img alt="example4" src="resources/5.png" width="100%" height=400>
+</p>
 
 ## Training
 
