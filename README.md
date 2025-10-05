@@ -50,5 +50,19 @@ To download the data, please send a request email to thuyentd@uit.edu.vn or tien
 
 ## Training
 
+## Citation
+
+If you find this project useful in your research, please consider cite:
+
+```BibTeX
+@inproceedings{do2025skeleton,
+  title={Skeleton-Guided Artistic Text Recognition},
+  author={Do, Tien and Tran, Thuyen and Le, Khiem and Le, Duy-Dinh and Ngo, Thanh Duc},
+  booktitle={International Conference on Document Analysis and Recognition},
+  pages={303--320},
+  year={2025},
+  organization={Springer}
+}
+```
 
 ## Acknowledgement
