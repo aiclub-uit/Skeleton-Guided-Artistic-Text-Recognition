@@ -44,11 +44,28 @@ To download the data, please send a request email to thuyentd@uit.edu.vn or tien
 
 ## Main results
 
-<p align="center">
+<!-- <p align="center">
   <img alt="example4" src="resources/5.png" width="100%" height=400>
-</p>
+</p> -->
+
+| Methods | CUTE (116) | IC13 (251) | Total (696) | WordArt (1511) | BKAI (336) | ST (209) | VinText (1033) | ATTW_test (4152) | Weights | Config |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---|---|
+| SATRN | 80.17 | 79.68 | 62.50 | **80.95** | 78.95 | 74.44 | 67.51 | 71.13 | |  |
+| ViTSTR | 81.90 | 82.87 | 75.43 | 63.99 | 63.16 | 55.47 | 72.53 | 68.50 | [Drive Link](https://drive.google.com/drive/u/0/folders/1EZxpE7Cl1pm7s5lnhOo1nko75U-ks7ZQ) |  |
+| ABINET | 86.21 | 86.06 | 79.45 | 47.62 | 47.85 | 38.63 | 76.70 | 64.72 | [Drive Link](https://drive.google.com/drive/u/0/folders/13YV1h0zAKiUqAEMJM61nzOGKo1QfEgsQ) |  |
+| CGT | 81.90 | 85.26 | 68.39 | 76.19 | 75.60 | 69.89 | 72.27 | 72.55 | | |
+| PARSeq | **88.79** | **93.63** | **84.05** | 64.88 | 66.99 | 60.31 | **77.83** | 74.18 | [Drive Link](https://drive.google.com/drive/u/0/folders/1tDY7y47gOtIUnB3uruxDZt4sjab3LAkU) | |
+| **SG-ATR** | 83.62 | 84.86 | 70.40 | **80.95** | **80.86** | **75.51** | 73.46 | **75.39** | [Drive Link](https://drive.google.com/drive/u/0/folders/1P_897gEq-VxmWwr-RKCZ-nFY6ffe6yMJ) | [skeleton_guided_vnarttext_finetune.py](https://drive.google.com/file/d/1MbyrW-OR1Qf0x6IIUoQEGtLp7MefKjCg/view?usp=drive_link) |
 
 ## Training
+```shell
+python tools/train.py ${CONFIG_FILE} [ARGS]
+```
+
+For example, we use this script to train the model:
+```shell
+python tools/train.py src/WordArt/configs/textrecog/skeleton_guided/sekeleton_guided_vnarttext.py
+```
 
 ## Citation
 
