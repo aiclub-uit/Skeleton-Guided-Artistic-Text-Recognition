@@ -50,12 +50,12 @@ To download the data, please send a request email to thuyentd@uit.edu.vn or tien
 
 | Methods | CUTE (116) | IC13 (251) | Total (696) | WordArt (1511) | BKAI (336) | ST (209) | VinText (1033) | ATTW_test (4152) | Weights | Config |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---|---|
-| SATRN | 80.17 | 79.68 | 62.50 | **80.95** | 78.95 | 74.44 | 67.51 | 71.13 | |  |
-| ViTSTR | 81.90 | 82.87 | 75.43 | 63.99 | 63.16 | 55.47 | 72.53 | 68.50 | [Drive Link](https://drive.google.com/drive/u/0/folders/1EZxpE7Cl1pm7s5lnhOo1nko75U-ks7ZQ) |  |
-| ABINET | 86.21 | 86.06 | 79.45 | 47.62 | 47.85 | 38.63 | 76.70 | 64.72 | [Drive Link](https://drive.google.com/drive/u/0/folders/13YV1h0zAKiUqAEMJM61nzOGKo1QfEgsQ) |  |
-| CGT | 81.90 | 85.26 | 68.39 | 76.19 | 75.60 | 69.89 | 72.27 | 72.55 | | |
-| PARSeq | **88.79** | **93.63** | **84.05** | 64.88 | 66.99 | 60.31 | **77.83** | 74.18 | [Drive Link](https://drive.google.com/drive/u/0/folders/1tDY7y47gOtIUnB3uruxDZt4sjab3LAkU) | |
-| **SG-ATR** | 83.62 | 84.86 | 70.40 | **80.95** | **80.86** | **75.51** | 73.46 | **75.39** | [Drive Link](https://drive.google.com/drive/u/0/folders/1P_897gEq-VxmWwr-RKCZ-nFY6ffe6yMJ) | [skeleton_guided_vnarttext_finetune.py](https://drive.google.com/file/d/1MbyrW-OR1Qf0x6IIUoQEGtLp7MefKjCg/view?usp=drive_link) |
+| SATRN | 80.17 | 79.68 | 62.50 | **80.95** | 78.95 | 74.44 | 67.51 | 71.13 | [Drive Link](https://drive.google.com/drive/u/0/folders/1wSPVmBYBi3u-B9BJAVn4mGJW2eXwF0-n) | [satrn_shallow_attw_finetune.py](https://drive.google.com/file/d/1k6SuKYFgSl5CImK3z5fm3N88F5Ch_Tkx/view?usp=drive_link) |
+| ViTSTR | 81.90 | 82.87 | 75.43 | 63.99 | 63.16 | 55.47 | 72.53 | 68.50 | [Drive Link](https://drive.google.com/drive/u/0/folders/1EZxpE7Cl1pm7s5lnhOo1nko75U-ks7ZQ) | [vitstr_attw_config.yaml](https://drive.google.com/file/d/1laXGc7J90ldXRGpdF0gJm-h_vUEqrbig/view?usp=drive_link) |
+| ABINET | 86.21 | 86.06 | 79.45 | 47.62 | 47.85 | 38.63 | 76.70 | 64.72 | [Drive Link](https://drive.google.com/drive/u/0/folders/13YV1h0zAKiUqAEMJM61nzOGKo1QfEgsQ) | [abinet_attw_config.yaml](https://drive.google.com/file/d/15WniFuqCIhKBJK1kIEDRCTeIFezlSJFv/view?usp=drive_link) |
+| CGT | 81.90 | 85.26 | 68.39 | 76.19 | 75.60 | 69.89 | 72.27 | 72.55 | [Drive Link](https://drive.google.com/drive/u/0/folders/1w-W2XJaoDILyq2laMGIYWmHueoJC1l4z) | [corner_transformer_attw_finetune.py](https://drive.google.com/file/d/1MbyrW-OR1Qf0x6IIUoQEGtLp7MefKjCg/view?usp=drive_link) |
+| PARSeq | **88.79** | **93.63** | **84.05** | 64.88 | 66.99 | 60.31 | **77.83** | 74.18 | [Drive Link](https://drive.google.com/drive/u/0/folders/1tDY7y47gOtIUnB3uruxDZt4sjab3LAkU) | [parseq_attw_config.yaml](https://drive.google.com/file/d/1FNPQyY0X-bluZyvp4y4SGAf-G9w2R4cG/view?usp=drive_link) |
+| **SG-ATR** | 83.62 | 84.86 | 70.40 | **80.95** | **80.86** | **75.51** | 73.46 | **75.39** | [Drive Link](https://drive.google.com/drive/u/0/folders/1P_897gEq-VxmWwr-RKCZ-nFY6ffe6yMJ) | [skeleton_guided_attw_finetune.py](https://drive.google.com/file/d/1MbyrW-OR1Qf0x6IIUoQEGtLp7MefKjCg/view?usp=drive_link) |
 
 ## Training
 ```shell
