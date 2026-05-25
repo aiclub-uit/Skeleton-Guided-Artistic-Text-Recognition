@@ -2,4 +2,5 @@
 from .base_preprocessor import BasePreprocessor
 from .tps_preprocessor import TPSPreprocessor
 from .corner_preprocessor import CornerPreprocessor
-__all__ = ['BasePreprocessor', 'TPSPreprocessor', 'CornerPreprocessor']
+from .skeleton_preprocessor import SkeletonPreprocessor
+__all__ = ['BasePreprocessor', 'TPSPreprocessor', 'CornerPreprocessor', 'SkeletonPreprocessor']
